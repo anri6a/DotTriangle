@@ -1,8 +1,8 @@
 public class Dot  {
-    int coordinateX, coordinateY;
-    public Dot (int x, int y){
-        coordinateX=x;
-        coordinateY=y;
+    private double coordinateX, coordinateY;
+    public Dot (double coordinateX, double coordinateY ){
+        this.coordinateX=coordinateX;
+        this.coordinateY=coordinateY;
     }
 
 }
